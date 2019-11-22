@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.network-visual {
+  font-size: 14px;
+  color: #666666;
+}
+.network-visual h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+.network-visual .content {
+  width: 100%;
+  height: calc(100vh - 40px);
+}
+
+.links .link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+}
+.nodes > g {
+  cursor: pointer;
+}
